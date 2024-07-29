@@ -7,8 +7,6 @@ const workoutRoute = require('./routes/workouts')
 const userRoute=require('./routes/user')
 const mongoose=require('mongoose')
 
-app.get('/',(req,res)=>{res.send("HELLLLLLLLLLOOO")})
-
 app.use(cors())
 app.use(express.json())
 
